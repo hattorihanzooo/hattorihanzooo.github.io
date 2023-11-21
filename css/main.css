@@ -1,0 +1,153 @@
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo img {
+    height: 40px;
+  }
+  #faq{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ff0000;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer-section {
+    width: 30%;
+  }
+  
+  .footer_ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ol li a {
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  form {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  input {
+    flex: 2;
+    padding: 5px;
+  }
+  
+  .footer_button {
+    flex: 1;
+    padding: 5px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+  }
+ 
+#armchair {
+  width: 700px;
+  height: 700px;
+  display: block; 
+  margin: 0 auto;
+}
+
+#myCarousel .carousel-control-next {
+  right: auto;
+  left: 35%; 
+}
+
+#myCarousel .carousel-control-prev {
+  left: auto;
+  right: 85%; 
+}
+
+.navbar-custom {
+  background-color: #f8f9fa; 
+  padding: 15px; 
+}
+
+.navbar-custom .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.scrollable-container {
+  max-height: 300px;
+  overflow-y: auto; 
+  border: 1px solid #ddd; 
+  padding: 10px; 
+}
+
+.custom-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.custom-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.custom-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
